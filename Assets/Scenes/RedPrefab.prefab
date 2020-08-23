@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 4210983860918930066}
   - component: {fileID: 8623629080423073833}
   - component: {fileID: 6074742899641036602}
-  - component: {fileID: 713394377253689191}
+  - component: {fileID: 2343446059959840284}
   m_Layer: 0
   m_Name: RedPrefab
-  m_TagString: Untagged
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &713394377253689191
+--- !u!114 &2343446059959840284
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,3 +106,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f37eb2d42b53564982ca17af2e3e054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rend: {fileID: 8623629080423073833}
